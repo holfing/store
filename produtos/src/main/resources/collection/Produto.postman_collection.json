@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "dc03400c-bd74-486b-a584-602caec413d6",
+		"name": "Produto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/produto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "titulo",
+							"value": "Lenovo",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "descricao",
+							"value": "Lenovo TinkingPading",
+							"type": "default"
+						},
+						{
+							"key": "imagem",
+							"type": "file",
+							"src": "/C:/Users/SQUADRA/Desktop/41G6Hlu3TBL._AC_SX679_.jpg"
+						},
+						{
+							"key": "preco",
+							"value": "3.500",
+							"type": "default"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/produtos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtos"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "tinkingPad",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
